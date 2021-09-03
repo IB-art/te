@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Kurale&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,800;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body class="body-bg" id="header" style="background-image: url(images/body-bg.png);">
+
+  <header class="header">
+    <div class="container">
+      <div class="header__inner" style="background-image: url(images/header-bg.jpg);">
+        <h1 class="header__title">Чайная компания</h1>
+      </div>
+    </div>
+  </header>
+
+  <div class="menu">
+    <div class="container">
+      <div class="menu__items">
+        <nav class="menu__list">
+          <button class="menu__btn"></button>
+          <ul class="menu__item">
+            <li class="menu__item-li">
+              <a href="#" class="menu__link">Главная</a>
+            </li>
+            <li class="menu__item-li">
+              <a href="#product" class="menu__link">Продукция</a>
+            </li>
+            <li class="menu__item-li">
+              <a href="#" class="menu__link">О нас</a>
+            </li>
+            <li class="menu__item-li">
+              <a href="#" class="menu__link">Новинки!</a>
+            </li>
+            <li class="menu__item-li">
+              <a href="#contact" class="menu__link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+  <section class="product-one" id="product">
+    <div class="container">
+      <div class="product-one__inner">
+        <div class="product-one__content">
+
+          <div class="product-one__tabs">
+            <div class="tabs">
+              <h2 class="product-one__title">Продукция</h2>
+              <span class="tab active" data-id="1">Зелёный чай</span>
+              <span class="tab" data-id="2">Чёрный чай</span>
+              <span class="tab" data-id="3">Белый чай</span>
+              <span class="tab" data-id="4">Жёлтый чай</span>
+              <span class="tab" data-id="5">Улун (красный) чай</span>
+              <span class="tab" data-id="6">чай пу-эр</span>
+              <span class="tab" data-id="7">Ароматизированный чай</span>
+              <span class="tab" data-id="8">Фруктовый чай чай</span>
+              <span class="tab" data-id="9">Травяной чай</span>
+              <span class="tab" data-id="10">Ройбуш (ройбус) чай</span>
+              <span class="tab" data-id="11">Мате (матэ) чай</span>
+              <span class="tab" data-id="12">Быстрорастворимый чай</span>
+              <span class="tab" data-id="13">Чайные экстракты</span>
+              <div class="product-one__img">
+                <img class="product-one__img-img" src="images/pareja.svg" alt="">
+              </div>
+            </div>
+
+            <div class="tab__content">
+              <div class="tab-item active-tab" id="1">
+                <div class="tab__box">
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/te/te1.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">830.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/te/te2.jpg" alt="">
+                    <div class="tab__box-title">Чай Сенча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">950.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/te/te3.jpg" alt="">
+                    <div class="tab__box-title">Чай Кудин</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">690.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/te/te4.jpg" alt="">
+                    <div class="tab__box-title">Чай Бай Мао Хоу</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">350.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/te/4.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">795.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/te/te5.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">510.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-item" id="2">
+                <div class="tab__box">
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/2/1.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/2/2.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/2/3.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/2/4.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/2/5.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/2/6.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-item" id="3">
+                <div class="tab__box">
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/1/1.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/1/2.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/1/3.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/1/4.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/1/5.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/1/6.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-item" id="4">
+                <div class="tab__box">
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/3/1.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/3/2.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/3/3.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/3/4.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/3/5.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/3/6.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-item" id="5">
+                <div class="tab__box">
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/4/1.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/4/2.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/4/3.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/4/5.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/4/6.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/4/te5.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-item" id="6">
+                <div class="tab__box">
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/te/te1.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">830.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/te/te2.jpg" alt="">
+                    <div class="tab__box-title">Чай Сенча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">950.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/te/te3.jpg" alt="">
+                    <div class="tab__box-title">Чай Кудин</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">690.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/te/te4.jpg" alt="">
+                    <div class="tab__box-title">Чай Бай Мао Хоу</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">350.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/te/4.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">795.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/te/te5.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">510.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-item" id="7">
+                <div class="tab__box">
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/2/1.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/2/2.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/2/3.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/2/4.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/2/5.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/2/6.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-item" id="8">
+                <div class="tab__box">
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/1/1.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/1/2.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/1/3.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/1/4.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/1/5.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/1/6.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-item" id="9">
+                <div class="tab__box">
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/2/1.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/2/2.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/2/3.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/2/4.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/2/5.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/2/6.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-item" id="10">
+                <div class="tab__box">
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/1/1.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/1/2.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/1/3.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/1/4.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/1/5.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/1/6.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-item" id="11">
+                <div class="tab__box">
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/2/1.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/2/2.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/2/3.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/2/4.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/2/5.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/2/6.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-item" id="12">
+                <div class="tab__box">
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/1/1.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/1/2.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/1/3.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/1/4.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/1/5.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/1/6.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-item" id="13">
+                <div class="tab__box">
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/2/1.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/2/2.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/2/3.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/2/4.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/2/5.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                  <div class="tab__box-item">
+                    <img class="tab__box-img" src="images/2/6.jpg" alt="">
+                    <div class="tab__box-title">Чай Генмайнча</div>
+                    <div class="tab__box-subtitle">чайные листья с воздушным рисом</div>
+                    <div class="tab__box-precio">915.00 ₽</div>
+                    <button class="tab__box-btn">Купить!</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="contact">
+    <div class="container">
+      <div class="footer__box">
+        <div class="footer__logo">
+          <h1 class="header__title footer__title">Чайная компания</h1>
+        </div>
+        <div class="footer__menu">
+          <div class=" footer__items">
+            <nav class=" footer__menu-list">
+              <ul class=" footer__menu-item">
+                <li class="menu__item-li">
+                  <a href="#header" class="menu__link">Главная</a>
+                </li>
+                <li class="menu__item-li">
+                  <a href="#product" class="menu__link">Продукция</a>
+                </li>
+                <li class="menu__item-li">
+                  <a href="#" class="menu__link">О нас</a>
+                </li>
+                <li class="menu__item-li">
+                  <a href="#" class="menu__link">Новинки!</a>
+                </li>
+                <li class="menu__item-li ">
+                  <a class="menu__link" data-fancybox data-src="#modal" href="javascript:;">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="footer__products">
+          <div class="footer__menu-inner">
+            <div class=" footer__items">
+              <nav class=" footer__menu-list">
+                <ul class=" footer__menu-item">
+                  <li class="menu__item-li">
+                    <a href="#1" class="menu__link">ЗЕЛЁНЫЙ ЧАЙ</a>
+                  </li>
+                  <li class="menu__item-li">
+                    <a href="#1" class="menu__link">ЧЁРНЫЙ ЧАЙ</a>
+                  </li>
+                  <li class="menu__item-li">
+                    <a href="#1" class="menu__link">БЕЛЫЙ ЧАЙ</a>
+                  </li>
+                  <li class="menu__item-li">
+                    <a href="#1" class="menu__link">ЖЁЛТЫЙ ЧАЙ</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+        <div class="footer__phone">
+          <a class="phone" href="tel:+34622227241">+34 (622) 22 72 41</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div id="modal">
+    <div class="login__wrapper">
+      <form class="form__inner">
+        <div class="login__title">Контакт</div>
+        <p class="login__subtitle">Оставьте ваш e-mail и мы свяжемся с вами в ближайшее время</p>
+        <label class="login__label-name">
+          <input type="text" name="name" placeholder="Имя" required>
+        </label>
+        <label class="login__label-pass">
+          <input type="mail" name="mail" placeholder="Электронная почта" required>
+        </label>
+        <button type="submit" class="button modal__button">Отправить</button>
+      </form>
+    </div>
+  </div>
+
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/main.js"></script>
+
+
+</body>
+
+</html>

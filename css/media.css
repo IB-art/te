@@ -1,0 +1,244 @@
+@media (max-width: 1105px) {
+  .footer__title {
+    font-size: 50px;
+    line-height: 54px;
+    width: 290px;
+  }
+  .footer__menu-item {
+    padding-left: 25px;
+  }
+  .phone {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 945px) {
+  .tab__box {
+    padding: 50px 10px;
+  }
+}
+
+@media (max-width: 865px) {
+  .product-one {
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+
+  .product-one__tabs {
+    display: block;
+  }
+
+  .tabs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 100%;
+    padding: 20px 10px 5px 10px;
+  }
+
+  .product-one__title {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+
+  .tabs span {
+    width: 227px;
+    text-align: left;
+    margin: 0 2px 0 2px;
+    padding: 7px;
+  }
+  .tabs span:nth-last-of-type(1) {
+    height: 34px;
+  }
+
+  .product-one__img {
+    margin-top: 0;
+    text-align: right;
+    margin-right: 30px;
+  }
+
+  .product-one__img-img {
+    width: 100px;
+  }
+
+  .tab__box {
+    padding: 20px 10px;
+  }
+}
+
+@media (max-width: 675px) {
+  .header__title {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 568px;
+    width: 100%;
+    text-align: center;
+  }
+  .menu {
+    background-color: rgba(90, 49, 21, 0.83);
+    margin-top: 0;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    border-bottom: 1px dashed;
+  }
+
+  .menu__item {
+    display: block;
+    position: absolute;
+    top: 46px;
+    left: 0;
+    right: 0;
+    border: none;
+    background-color: rgb(114 68 36 / 80%);
+    text-align: center;
+    padding: 0;
+    transform: translateY(-500px);
+    transition: all 0.5s;
+  }
+
+  .menu__item-li {
+    border-bottom: 1px dashed;
+  }
+  .menu__link {
+    padding: 20px 0;
+    display: block;
+  }
+  .menu__btn {
+    display: block;
+    cursor: pointer;
+    width: 35px;
+    height: 24px;
+    border: none;
+    border-top: 2px solid #fefefe;
+    border-bottom: 2px solid #fefefe;
+    background-color: transparent;
+    position: relative;
+    outline: none;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    filter: drop-shadow(2px 3px 1px #000);
+  }
+  .menu__btn::before {
+    content: "";
+    position: absolute;
+    width: 35px;
+    height: 2px;
+    background-color: #fefefe;
+    left: 0;
+    top: 9px;
+  }
+  .menu__item.menu__item--active {
+    transform: translateY(0);
+  }
+  .header__inner {
+    margin-bottom: 10px;
+  }
+  .product-one__content {
+    padding: 10px;
+  }
+  .header__title {
+    padding-top: 0;
+  }
+  .footer__box {
+    display: block;
+    padding-top: 10px;
+  }
+  .footer__title {
+    font-size: 34px;
+  }
+  .footer__menu,
+  .footer__products {
+    border-left: 0;
+  }
+  .footer__menu-item {
+    padding-left: 0;
+  }
+  .footer__menu-item li {
+    text-align: center;
+  }
+  .footer__menu-list a {
+    padding: 2px 0;
+    font-size: 14px;
+  }
+  .footer__phone {
+    text-align: center;
+  }
+  .phone {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 521px) {
+  .tabs span {
+    padding: 3px;
+  }
+  .product-one__img {
+    margin-top: -305px;
+  }
+}
+
+@media (max-width: 495px) {
+  .header__title {
+    padding-top: 465px;
+    line-height: 56px;
+    font-size: 55px;
+    text-align: left;
+  }
+  .header__inner {
+    min-height: 600px;
+  }
+  .footer__title {
+    padding-top: 0;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 0;
+    line-height: 25px;
+  }
+  .phone {
+    font-size: 26px;
+  }
+  .footer__menu-item li {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+@media (max-width: 451px) {
+  .product-one__title {
+    padding-bottom: 10px;
+  }
+  .product-one__img {
+    display: none;
+  }
+  .tabs span {
+    padding: 1px;
+  }
+  .login__title {
+    font-size: 45px;
+  }
+  .modal__button {
+    padding: 8px 0 8px;
+    width: 112px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 370px) {
+  .header__inner {
+    min-height: 460px;
+  }
+
+  .header__title {
+    padding-top: 360px;
+    line-height: 45px;
+    font-size: 45px;
+  }
+  .footer__title {
+    padding-top: 0;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 0;
+    line-height: 25px;
+  }
+}
